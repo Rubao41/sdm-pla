@@ -10,7 +10,7 @@ const soma = function(a, b) {
 }
 console.log(soma(7, 7))
 
-// função simples (uma bosta!)
+// função simples 
 
 function simp(){
     let a = 7

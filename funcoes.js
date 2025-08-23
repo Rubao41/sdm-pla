@@ -12,10 +12,10 @@ console.log(soma(7, 7))
 
 // função simples 
 
-function simp(){
-    let a = 7
-    let b = -7
-    let c = a + b
+function simp(a, b){
+    const c = a + b
     console.log('O valor de c é : ' + c)
+    return c
 }
-simp()  
+
+simp(7, -7)  
